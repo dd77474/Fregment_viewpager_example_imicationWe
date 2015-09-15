@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/fragment_check__tv_wx"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/amk"
+        android:gravity="center"
+        android:text="微信" />
+
+    <TextView
+        android:id="@+id/fragment_check__tv_txl"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/amg"
+        android:gravity="center"
+        android:text="通讯录" />
+
+    <TextView
+        android:id="@+id/fragment_check__tv_fx"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/amm"
+        android:gravity="center"
+        android:text="发现" />
+
+    <TextView
+        android:id="@+id/fragment_check__tv_wo"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/ams"
+        android:gravity="center"
+        android:text="我" />
+</LinearLayout>

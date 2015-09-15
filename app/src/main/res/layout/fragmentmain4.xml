@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f3f4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/color"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/main4_touxiang"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:clickable="true"
+                android:src="@drawable/get" />
+
+            <TextView
+                android:id="@+id/main4_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@id/main4_touxiang"
+                android:paddingTop="8dp"
+                android:text="肥猪王"
+                android:textSize="15dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/main4_name"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/main4_touxiang"
+                android:gravity="center_vertical"
+                android:paddingTop="2dp"
+                android:text="微信号：doudoudou"
+                android:textSize="10dp" />
+
+            <ImageView
+                android:id="@+id/main4_touxiang_erweima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:src="@drawable/fragment_wo_ewm" />
+        </RelativeLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/color"
+            android:drawableLeft="@drawable/fragment_wo_xc"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="相册"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/color"
+            android:drawableLeft="@drawable/fragment_wo_sc"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="收藏"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/color"
+            android:drawableLeft="@drawable/fragment_wo_qb"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="钱包"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/color"
+            android:drawableLeft="@drawable/fragment_wo_kb"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="卡包"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/color"
+            android:drawableLeft="@drawable/fragment_wo_bq"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="表情"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/color"
+            android:drawableLeft="@drawable/fragment_wo_sz"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="设置"
+            android:textSize="15dp" />
+    </LinearLayout>
+</ScrollView>
